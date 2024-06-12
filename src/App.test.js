@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App';
 
 test('renders learn react link', () => {
@@ -6,4 +6,3 @@ test('renders learn react link', () => {
   const titleElement = screen.getByText(/TODO thingy/i);
   expect(titleElement).toBeInTheDocument();
 });
-
