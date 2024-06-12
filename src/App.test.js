@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import TodoForm from './TodoForm';
-
+import TodoList from './components/TodoList';
+import TodoForm from './components/TodoForm';
 import App from './App';
 
 test('renders learn react link', () => {
