@@ -5,7 +5,7 @@ on:
 
 jobs:
   test:
-    uses: ./.github/workflows/reusable-tests.yml@main
+    uses: ./.github/workflows/test-module.yml@main
     with:
       node-version: '18'
     secrets:
